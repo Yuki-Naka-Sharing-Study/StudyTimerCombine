@@ -11,6 +11,8 @@
 		D11773C82E0D20F300D082F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11773C72E0D20F300D082F9 /* ContentView.swift */; };
 		D11773CA2E0D20F400D082F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11773C92E0D20F400D082F9 /* Assets.xcassets */; };
 		D11773CD2E0D20F400D082F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11773CC2E0D20F400D082F9 /* Preview Assets.xcassets */; };
+		D11773D42E0D213F00D082F9 /* StudyTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11773D32E0D213F00D082F9 /* StudyTimerViewModel.swift */; };
+		D11773D62E0D216200D082F9 /* StudyTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11773D52E0D216200D082F9 /* StudyTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D11773C72E0D20F300D082F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D11773C92E0D20F400D082F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11773CC2E0D20F400D082F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D11773D32E0D213F00D082F9 /* StudyTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTimerViewModel.swift; sourceTree = "<group>"; };
+		D11773D52E0D216200D082F9 /* StudyTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D11773C72E0D20F300D082F9 /* ContentView.swift */,
 				D11773C92E0D20F400D082F9 /* Assets.xcassets */,
 				D11773CB2E0D20F400D082F9 /* Preview Content */,
+				D11773D32E0D213F00D082F9 /* StudyTimerViewModel.swift */,
+				D11773D52E0D216200D082F9 /* StudyTimerView.swift */,
 			);
 			path = StudyTimerCombine;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11773D62E0D216200D082F9 /* StudyTimerView.swift in Sources */,
 				D11773C82E0D20F300D082F9 /* ContentView.swift in Sources */,
+				D11773D42E0D213F00D082F9 /* StudyTimerViewModel.swift in Sources */,
 				D11773C62E0D20F300D082F9 /* StudyTimerCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct StudyTimerCombineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StudyTimerView()
         }
     }
 }
